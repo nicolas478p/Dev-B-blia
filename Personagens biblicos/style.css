@@ -13,6 +13,10 @@ header{
     color: aliceblue;
 }
 
+header h1{
+    margin-left: 8px;
+}
+
 .container{
     display: flex;
     justify-content: space-evenly;
