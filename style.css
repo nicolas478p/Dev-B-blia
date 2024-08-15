@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Kanit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'kanit';
+}
+
+header{
+    background-color: rgb(173, 175, 73);
+    border: 2px solid ;
+    color: aliceblue;
+}
+
+header h1{
+    margin-left: 8px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container div{
+    background-color: rgb(159, 177, 57);
+    padding: 10px 10px 17px 10px;
+    border-radius: 1pc;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.container div:hover{
+    background-color:  rgb(180, 204, 44);
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.container img{
+    display: flex;
+    width: 130px; 
+}
+
+.container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+section{
+    text-align: center;
+    background-color: rgb(130, 155, 97);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 1pc;
+}
+
+section p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+section h2{
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.container{
+    margin-bottom: 15px;
+}
+
+
